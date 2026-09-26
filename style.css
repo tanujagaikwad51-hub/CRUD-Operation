@@ -1,0 +1,98 @@
+body {
+    background-color: #00111f;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    width: 500px;
+    min-height: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Forms */
+.create_form,
+.update_form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.create_form input,
+.update_form input {
+    width: 150px;
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Create and Update buttons */
+.create_form button,
+.update_form button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add button */
+.add_div {
+    margin-bottom: 20px;
+}
+
+.add_div button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Edit button */
+.edit {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Delete button */
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    opacity: 0.8;
+}
